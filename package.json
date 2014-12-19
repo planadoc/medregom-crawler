@@ -8,6 +8,10 @@
   },
   "author": "francois.vessaz@gmail.com",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/planadoc/medregom-crawler.git"
+  },
   "dependencies": {
     "mysql": "^2.5.3",
     "q": "^1.1.2",
