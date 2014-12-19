@@ -1,0 +1,17 @@
+{
+  "name": "medregom-crawler",
+  "version": "0.1.0",
+  "description": "This node.js tool crawls the medregom.admin.ch publications and search form to build a database of health professional in Switzerland.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "francois.vessaz@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.5.3",
+    "q": "^1.1.2",
+    "sax": "^0.6.1",
+    "unzip": "^0.1.11"
+  }
+}
