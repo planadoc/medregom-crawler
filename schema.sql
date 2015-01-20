@@ -59,7 +59,7 @@ CREATE TABLE `DOCTORS` (
 CREATE TABLE `ADDRESSES` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `gln` varchar(13) NOT NULL DEFAULT '',
-  `street` varchar(64) NOT NULL DEFAULT '',
+  `street` varchar(128) NOT NULL DEFAULT '',
   `zip` varchar(11) NOT NULL DEFAULT '',
   `city` varchar(64) NOT NULL DEFAULT '',
   `status` varchar(12) NOT NULL DEFAULT '',
